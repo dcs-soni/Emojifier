@@ -24,8 +24,10 @@ h1 {
 }
 
 input {
+  position: relative;
   padding: 1rem;
   width: 80%;
+  z-index: 1;
 }
 
 .text {
@@ -36,14 +38,14 @@ input {
 }
 
 .icon {
-  filter: blur(0.7px);
+  /* filter: blur(0.7px); */
   width: 60px;
   height: 60px;
   position: absolute;
   z-index: 0;
 }
 
-.emoji {
+.happy {
   top: 6%;
   left: 8%;
 }
@@ -88,7 +90,7 @@ input {
   right: 20px;
 }
 
-@media only screen and (min-width: 1080px) {
+@media only screen and (min-width: 900px) {
   .icon {
     width: 6rem;
     height: 6rem;

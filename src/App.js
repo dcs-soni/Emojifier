@@ -23,7 +23,6 @@ export default function App() {
 
   function inputChangeHandler(event) {
     var userInput = event.target.value;
-
     var meaning = emojiDictionary[userInput];
 
     if (meaning === undefined) {
@@ -37,7 +36,7 @@ export default function App() {
     <div className="App">
       <h1> Emojifier </h1>
       <div>
-        <img className="icon emoji" src="img/emoji.png" alt="an-icon"></img>
+        <img className="icon happy" src="img/emoji.png" alt="an-icon"></img>
         <img className="icon sad" src="img/sad.png" alt="an-icon"></img>
         <img className="icon scared" src="img/scared.png" alt="an-icon"></img>
         <img className="icon shocked" src="img/shocked.png" alt="an-icon"></img>
