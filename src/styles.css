@@ -35,6 +35,7 @@ input {
   font-weight: bold;
   margin: 5%;
   z-index: 1;
+  /* font-size: 2rem; */
 }
 
 .icon {
@@ -56,13 +57,13 @@ input {
 }
 
 .scared {
-  top: 300px;
+  top: 380px;
   left: 20px;
   transform: rotate(-30deg);
 }
 
 .shocked {
-  top: 350px;
+  top: 410px;
   right: 40px;
   transform: rotate(30deg);
 }
@@ -91,6 +92,13 @@ input {
 }
 
 @media only screen and (min-width: 900px) {
+  .text {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
   .icon {
     width: 6rem;
     height: 6rem;
@@ -98,6 +106,7 @@ input {
   }
 
   .wink {
+    top: 550px;
     left: 300px;
   }
 
