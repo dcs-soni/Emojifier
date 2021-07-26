@@ -18,7 +18,15 @@ const emojiDictionary = {
   "🐉": "Dragon"
 };
 
+var emojisWeKnow = Object.keys(emojiDictionary);
+// console.log(emojisWeKnow);
+
 export default function App() {
+  function listItemClickHandler(emoji) {
+    var meaning = emojiDictionary[emoji];
+    setMeaning(meaning);
+  }
+
   const [meaning, setMeaning] = useState("");
 
   function inputChangeHandler(event) {
@@ -59,8 +67,24 @@ export default function App() {
         over to the search bar and search for the meaning of the emojis
       </p>
       <input onChange={inputChangeHandler}></input>
-      <div></div>
-      <div> {meaning} </div>
+      <div style={{ padding: "0.5rem" }}> {meaning} </div>
+      <p style={{ fontSize: "1rem", cursor: "pointer" }}></p>{" "}
+      {emojisWeKnow.map(function (emoji) {
+        return (
+          <span
+            onClick={() => listItemClickHandler(emoji)}
+            style={{
+              fontSize: "2rem",
+              padding: "0.5rem",
+              cursor: "pointer"
+            }}
+            key={emoji}
+          >
+            {emoji}
+          </span>
+        );
+      })}
+      <div style={{ margin: "2rem" }}></div>
     </div>
   );
 }
