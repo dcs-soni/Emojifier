@@ -67,7 +67,7 @@ export default function App() {
         over to the search bar and search for the meaning of the emojis
       </p>
       <input onChange={inputChangeHandler}></input>
-      <div style={{ padding: "0.5rem" }}> {meaning} </div>
+      <div className="meaning"> {meaning} </div>
       <p style={{ fontSize: "1.5rem", cursor: "pointer" }}></p>{" "}
       {emojisWeKnow.map(function (emoji) {
         return (
