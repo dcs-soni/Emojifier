@@ -9,7 +9,7 @@ const emojiDictionary = {
   "🐈": "Cat",
   "🦁": "Lion",
   "🐆": "Leopard",
-  "🐪": "Camal",
+  "🐪": "Camel",
   "🐘": "Elephant",
   "🦘": "Kangaroo",
   "🐿️": "Chipmunk",
