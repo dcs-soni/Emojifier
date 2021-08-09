@@ -84,7 +84,7 @@ input {
 }
 
 .surprised {
-  top: 510px;
+  top: 660px;
   right: 80px;
   transform: rotate(180deg);
 }

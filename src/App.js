@@ -44,21 +44,29 @@ export default function App() {
     <div className="App">
       <h1> Emojifier </h1>
       <div>
-        <img className="icon happy" src="img/emoji.png" alt="an-icon"></img>
-        <img className="icon sad" src="img/sad.png" alt="an-icon"></img>
-        <img className="icon scared" src="img/scared.png" alt="an-icon"></img>
-        <img className="icon shocked" src="img/shocked.png" alt="an-icon"></img>
-        <img className="icon smile" src="img/smile.png" alt="an-icon"></img>
+        <img className="icon happy" src="img/emoji.png" alt="happy-icon"></img>
+        <img className="icon sad" src="img/sad.png" alt="sad-icon"></img>
+        <img
+          className="icon scared"
+          src="img/scared.png"
+          alt="scared-icon"
+        ></img>
+        <img
+          className="icon shocked"
+          src="img/shocked.png"
+          alt="shocked-icon"
+        ></img>
+        <img className="icon smile" src="img/smile.png" alt="smile-icon"></img>
         <img
           className="icon thinking"
           src="img/thinking.png"
-          alt="an-icon"
+          alt="thinking-icon"
         ></img>
 
         <img
           className="icon surprised"
           src="img/surprised.png"
-          alt="an-icon"
+          alt="surprised-icon"
         ></img>
         <img className="icon wink" src="img/wink.png" alt="an-icon"></img>
       </div>
