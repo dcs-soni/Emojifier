@@ -1,2 +1,1 @@
-# Emojifier
 Created with CodeSandbox
