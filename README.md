@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/img/emojifier-readme.png" width="600" height="400" />
+  <img src="public/img/emojifier-new-readme.png" width="600" height="400" />
 </p>
 
 <div align="center">
